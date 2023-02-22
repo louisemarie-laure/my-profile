@@ -1,0 +1,130 @@
+/*Colors and fonts*/
+body{
+	background: rgb(240, 241, 187);
+	color: rgb(150, 103, 210);
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	font-weight: 750;
+}
+
+h1, h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	color: indianred;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2 {
+	color: rgb(70, 70, 70);
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+a {
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	color: purple;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+a:hover {
+	color: lightcoral;
+}
+
+
+/*Custom design with class (99% of design)*/
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background: ghostwhite;
+	padding: 60px;
+	margin: 50px;
+	border: black;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+	text-align: center;
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+.btn-purple{
+	background-color: purple;
+  	border: none;
+  	border-radius: 6px;
+ 	color: white;
+  	padding: 15px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+}
+
+.btn-purple:hover{
+	background-color: lightcoral;
+	color: white;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 30px;
+	color: purple;
+}
+
+.list-inline i:hover{
+	color: lightcoral;
+}
+
+
+/*Design adjustments using id (1% left)*/
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+#bio{
+	color: royalblue;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+#LM{
+	border: 10px solid black;
+}
